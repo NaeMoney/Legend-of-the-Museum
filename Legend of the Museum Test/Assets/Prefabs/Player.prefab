@@ -463,13 +463,13 @@ MonoBehaviour:
   AbilityStopSfx: {fileID: 0}
   AbilityStartFeedbacks: {fileID: 0}
   AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
+  AbilityPermitted: 0
   BlockingMovementStates: 
   BlockingConditionStates: 
   DashMode: 1
   DashSpace: 0
-  DashDirection: {x: 0, y: 0, z: 1}
-  DashDistance: 10
+  DashDirection: {x: 1, y: 0, z: 0}
+  DashDistance: 2.5
   DashDuration: 0.5
   DashCurve:
     serializedVersion: 2
@@ -498,13 +498,13 @@ MonoBehaviour:
   AllowDashWhenJumping: 0
   Cooldown:
     Unlimited: 0
-    ConsumptionDuration: 2
-    PauseOnEmptyDuration: 1
+    ConsumptionDuration: 1
+    PauseOnEmptyDuration: 2
     RefillDuration: 1
-    CanInterruptRefill: 1
+    CanInterruptRefill: 0
     CooldownState: 0
     CurrentDurationLeft: 0
-  InvincibleWhileDashing: 0
+  InvincibleWhileDashing: 1
   DashFeedback: {fileID: 0}
 --- !u!114 &5264271973389619375
 MonoBehaviour:
@@ -546,7 +546,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5264271973389619349}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d103439fc2940e347937487a70ea01e3, type: 3}
   m_Name: 
@@ -559,7 +559,7 @@ MonoBehaviour:
   AbilityPermitted: 1
   BlockingMovementStates: 
   BlockingConditionStates: 
-  RunSpeed: 16
+  RunSpeed: 7
   AutoRun: 0
   AutoRunThreshold: 0.6
 --- !u!114 &5264271973389619345
