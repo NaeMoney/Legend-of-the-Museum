@@ -669,7 +669,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerPrefabs:
-  - {fileID: 8713018678661954353, guid: bec301f32914b554b9ea45e2a1ebead2, type: 3}
+  - {fileID: 1276700055, guid: 2fc8742bb557bed41b13be557466c4b0, type: 3}
   AutoAttributePlayerIDs: 1
   SceneCharacters: []
   InitialSpawnPoint: {fileID: 1618121293}
@@ -2347,7 +2347,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &290186401
 PrefabInstance:
@@ -10048,7 +10048,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 661c5b706f23b13429b656387cea4c77,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 661c5b706f23b13429b656387cea4c77,
         type: 3}
