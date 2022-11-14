@@ -102,7 +102,7 @@ MonoBehaviour:
   Flipped: 0
   MeleeDamageAreaMode: 0
   DamageAreaShape: 2
-  AreaSize: {x: 1.81, y: 1.24, z: 2.36}
+  AreaSize: {x: 1.8, y: 1.9, z: 2.36}
   AreaOffset: {x: -0.1, y: -0.63, z: 0}
   HitDamageableFeedback: {fileID: 0}
   HitNonDamageableFeedback: {fileID: 0}
@@ -111,11 +111,11 @@ MonoBehaviour:
   ActiveDuration: 1
   TargetLayerMask:
     serializedVersion: 2
-    m_Bits: 0
-  MinDamageCaused: 10
-  MaxDamageCaused: 10
-  Knockback: 0
-  KnockbackForce: {x: 10, y: 2, z: 0}
+    m_Bits: 8192
+  MinDamageCaused: 30
+  MaxDamageCaused: 30
+  Knockback: 1
+  KnockbackForce: {x: 30, y: 30, z: 0}
   InvincibilityDuration: 0.5
   CanDamageOwner: 0
 --- !u!114 &3803897260345629953
