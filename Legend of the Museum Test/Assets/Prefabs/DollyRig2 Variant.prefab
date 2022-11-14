@@ -51,7 +51,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3aa6daa361db3ac4bb21d3a25a6ed869,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.12
+      value: 3.59
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3aa6daa361db3ac4bb21d3a25a6ed869,
         type: 3}
@@ -92,6 +92,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3aa6daa361db3ac4bb21d3a25a6ed869,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -353213941643525932, guid: 3aa6daa361db3ac4bb21d3a25a6ed869,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3aa6daa361db3ac4bb21d3a25a6ed869,
         type: 3}
@@ -143,13 +153,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 3.09
-  m_Radius: 0.74
+  m_Height: 3.31
+  m_Radius: 1.08
   m_SlopeLimit: 45
   m_StepOffset: 0.3
-  m_SkinWidth: 0.08
+  m_SkinWidth: 0.3
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0.08, y: 1.34, z: -0.18}
+  m_Center: {x: 0, y: 1, z: -0.18}
 --- !u!95 &5873659007957846578
 Animator:
   serializedVersion: 4
@@ -182,10 +192,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01754710d9f92ec4d9a21b81f5682667, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Model: {fileID: 0}
+  Model: {fileID: 4250877072106182}
   CurrentHealth: 100
   Invulnerable: 0
-  InitialHealth: 10
+  InitialHealth: 100
   MaximumHealth: 100
   ResetHealthOnEnable: 1
   ImmuneToDamage: 0
@@ -194,7 +204,7 @@ MonoBehaviour:
   PreventTakeSelfDamage: 0
   ImmuneToKnockback: 0
   ImmuneToKnockbackIfZeroDamage: 0
-  KnockbackForceMultiplier: 1
+  KnockbackForceMultiplier: 2
   DestroyOnDeath: 1
   DelayBeforeDestruction: 0
   PointsWhenDestroyed: 0
@@ -603,7 +613,7 @@ MonoBehaviour:
   RunAnimatorSanityChecks: 0
   DisableAnimatorLogs: 1
   CharacterModel: {fileID: 4250877072106182}
-  CharacterHealth: {fileID: 0}
+  CharacterHealth: {fileID: 1276700042}
   SendStateChangeEvents: 1
   AdditionalAbilityNodes: []
   CharacterBrain: {fileID: 0}
