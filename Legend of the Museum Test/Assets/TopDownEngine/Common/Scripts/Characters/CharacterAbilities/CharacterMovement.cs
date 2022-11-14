@@ -12,6 +12,9 @@ namespace MoreMountains.TopDownEngine
 	[AddComponentMenu("TopDown Engine/Character/Abilities/Character Movement")] 
 	public class CharacterMovement : CharacterAbility 
 	{
+		/// caitlin adding in animation test 
+		public Animator animator; 
+
 		/// the possible rotation modes for the character
 		public enum Movements { Free, Strict2DirectionsHorizontal, Strict2DirectionsVertical, Strict4Directions, Strict8Directions }
 
@@ -390,20 +393,24 @@ namespace MoreMountains.TopDownEngine
 			if ((Acceleration == 0) || (Deceleration == 0))
 			{
 				_lerpedInput = AnalogInput ? _currentInput : _normalizedInput;
-			}
+                
+            }
 			else
 			{
+
 				if (_normalizedInput.magnitude == 0)
 				{
 					_acceleration = Mathf.Lerp(_acceleration, 0f, Deceleration * Time.deltaTime);
 					_lerpedInput = Vector2.Lerp(_lerpedInput, _lerpedInput * _acceleration, Time.deltaTime * Deceleration);
 					interpolationSpeed = Deceleration;
-				}
+                    animator.SetBool("IsWalking", false);
+                }
 				else
 				{
 					_acceleration = Mathf.Lerp(_acceleration, 1f, Acceleration * Time.deltaTime);
 					_lerpedInput = AnalogInput ? Vector2.ClampMagnitude (_currentInput, _acceleration) : Vector2.ClampMagnitude(_normalizedInput, _acceleration);
 					interpolationSpeed = Acceleration;
+					animator.SetBool("IsWalking", true);
 				}
 			}		
 			
