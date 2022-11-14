@@ -1978,7 +1978,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267436001}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76891b3b532f84acaaeed44c357bd00c, type: 3}
   m_Name: 
@@ -7757,15 +7757,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 473022, guid: 292d28922523dca4a9d538af4cfdb1a1, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.17
+      value: 1.26
       objectReference: {fileID: 0}
     - target: {fileID: 473022, guid: 292d28922523dca4a9d538af4cfdb1a1, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.17
+      value: 1.26
       objectReference: {fileID: 0}
     - target: {fileID: 473022, guid: 292d28922523dca4a9d538af4cfdb1a1, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.17
+      value: 1.26
       objectReference: {fileID: 0}
     - target: {fileID: 473022, guid: 292d28922523dca4a9d538af4cfdb1a1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7777,7 +7777,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 473022, guid: 292d28922523dca4a9d538af4cfdb1a1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -16.486525
+      value: -16.81
       objectReference: {fileID: 0}
     - target: {fileID: 473022, guid: 292d28922523dca4a9d538af4cfdb1a1, type: 3}
       propertyPath: m_LocalRotation.w
