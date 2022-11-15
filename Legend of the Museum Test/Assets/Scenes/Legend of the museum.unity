@@ -125,6 +125,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &50991832 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 783d26e393ac57d4282c1758795cfaf1,
+    type: 3}
+  m_PrefabInstance: {fileID: 863462196}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &105135216
 GameObject:
   m_ObjectHideFlags: 0
@@ -1079,6 +1085,25 @@ MonoBehaviour:
   KnockbackForce: {x: 10, y: 2, z: 0}
   InvincibilityDuration: 0.5
   CanDamageOwner: 0
+--- !u!1 &593186612 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 783d26e393ac57d4282c1758795cfaf1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1249694369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &593186613
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593186612}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.03395767, y: 0.038923554, z: 0.02973217}
+  m_Center: {x: 0.49204475, y: -0.0091800755, z: 0.54109955}
 --- !u!1 &598334956
 GameObject:
   m_ObjectHideFlags: 0
@@ -1156,7 +1181,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8cd3a2f079794d54384c80016d0844fa, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.134
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1797,6 +1822,19 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 863462196}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &863462198
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50991832}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.031309433, y: 0.056129906, z: 0.027970351}
+  m_Center: {x: 0.48434243, y: -0.0028887438, z: 0.57050675}
 --- !u!1 &896821453 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5466910241897129639, guid: 68b8f87f714852546a47b29fadc33931,
@@ -2313,11 +2351,11 @@ MonoBehaviour:
   Alignment: 4
   FadeDuration: 0.2
   TransitionTime: 0.2
-  Offset: {x: 0, y: 2.93, z: 0}
+  Offset: {x: 0, y: 2.66, z: -0.5}
   BoxesFollowZone: 0
   CanMoveWhileTalking: 1
   ButtonHandled: 0
-  MessageDuration: 7
+  MessageDuration: 9
   ActivableMoreThanOnce: 1
   InactiveTime: 3
   Dialogue:
@@ -4898,6 +4936,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1846058119}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1887550134 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 783d26e393ac57d4282c1758795cfaf1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1417353831}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1887550135
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887550134}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.035857316, y: 0.038923554, z: 0.035000153}
+  m_Center: {x: 0.450694, y: -0.0091800755, z: 0.582929}
 --- !u!1 &1918232350
 GameObject:
   m_ObjectHideFlags: 0
