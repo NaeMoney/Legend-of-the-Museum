@@ -73,7 +73,7 @@ MonoBehaviour:
   RightHandHandle: {fileID: 0}
   ModifyMovementWhileAttacking: 0
   MovementMultiplier: 0
-  PreventAllMovementWhileInUse: 1
+  PreventAllMovementWhileInUse: 0
   PreventAllAimWhileInUse: 0
   RecoilForce: 0
   Animators: []
@@ -115,7 +115,7 @@ MonoBehaviour:
   MinDamageCaused: 30
   MaxDamageCaused: 30
   Knockback: 1
-  KnockbackForce: {x: 30, y: 30, z: 0}
+  KnockbackForce: {x: 30, y: 30, z: 30}
   InvincibilityDuration: 0.5
   CanDamageOwner: 0
 --- !u!114 &3803897260345629953
