@@ -650,7 +650,7 @@ MonoBehaviour:
   ContinuousPress: 0
   GettingHitInterruptsAttack: 0
   UseSecondaryAxisThresholdToShoot: 0
-  BufferInput: 0
+  BufferInput: 1
   NewInputExtendsBuffer: 0
   MaximumBufferDuration: 0.25
   RequiresPerfectTile: 0
