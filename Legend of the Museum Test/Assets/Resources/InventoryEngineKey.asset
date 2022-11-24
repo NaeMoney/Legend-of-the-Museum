@@ -9,15 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48417c356aa393b48a91d187acc3198e, type: 3}
-  m_Name: HealthPickUp
+  m_Script: {fileID: 11500000, guid: af1c561813379b94c8d7a45902d9089e, type: 3}
+  m_Name: InventoryEngineKey
   m_EditorClassIdentifier: 
-  ItemID: HealthPickUp
+  ItemID: AnimalKey
   TargetInventoryName: MainInventory
   ForceSlotIndex: 0
   TargetIndex: 0
   Usable: 1
-  Consumable: 1
+  Consumable: 0
   ConsumeQuantity: 1
   Equippable: 0
   MoveWhenEquipped: 1
@@ -27,20 +27,20 @@ MonoBehaviour:
   DisplayProperties:
     DisplayEquipUseButton: 1
     DisplayMoveButton: 1
-    DisplayDropButton: 0
-    DisplayEquipButton: 0
+    DisplayDropButton: 1
+    DisplayEquipButton: 1
     DisplayUseButton: 1
-    DisplayUnequipButton: 0
+    DisplayUnequipButton: 1
   Quantity: 1
-  ItemName: Special Grown Wheat
-  ShortDescription: This wheat will take care of all your TLC needs!
-  Description: Consume this item to gain health and to continue the fight to fix
-    the museum!
+  ItemName: Animal Room Key
+  ShortDescription: A small, useful key
+  Description: This key will help you access any rooms that you couldn't without
+    it
   Icon: {fileID: 21300000, guid: c239f8a360bf546418eb857c24f83205, type: 3}
-  Prefab: {fileID: 3839080003524052629, guid: 6c8fc89ae3f178f48a1af14447b072d2, type: 3}
+  Prefab: {fileID: 8159868947768588409, guid: 8b8bb4eca045da34fab5606ac2e03a21, type: 3}
   DropProperties:
-    Shape: 1
-    NormalToSpawnPlane: {x: 0, y: 1, z: 0}
+    Shape: 0
+    NormalToSpawnPlane: {x: 0, y: 0, z: 0}
     MinimumSphereRadius: 1
     MaximumSphereRadius: 2
     MinimumCubeBaseSize: {x: 1, y: 1, z: 1}
@@ -77,14 +77,13 @@ MonoBehaviour:
     InvertNormalOffsetCurve: 0
     MinimumRotation: {x: 0, y: 0, z: 0}
     MaximumRotation: {x: 0, y: 0, z: 0}
-    MinimumScale: {x: 6.16, y: 6.16, z: 6.16}
-    MaximumScale: {x: 6.16, y: 6.16, z: 6.16}
+    MinimumScale: {x: 6.21, y: 6.21, z: 6.21}
+    MaximumScale: {x: 6.21, y: 6.21, z: 6.21}
   MaximumStack: 1
-  ItemClass: 4
+  ItemClass: 0
   TargetEquipmentInventoryName: 
   EquippedSound: {fileID: 0}
   UsedSound: {fileID: 0}
   MovedSound: {fileID: 0}
   DroppedSound: {fileID: 0}
   UseDefaultSoundsIfNull: 1
-  HealthBonus: 40
