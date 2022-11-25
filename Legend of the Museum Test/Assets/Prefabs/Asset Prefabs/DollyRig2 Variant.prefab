@@ -113,19 +113,18 @@ MonoBehaviour:
         m_Calls: []
   DebugActive: 0
   FeedbacksList:
-  - rid: 7737505804254707718
-  - rid: 7737505804254707719
+  - rid: 7737505804254707721
   KeepPlayModeChanges: 0
   PerformanceMode: 0
   ForceStopFeedbacksOnDisable: 1
   references:
     version: 2
     RefIds:
-    - rid: 7737505804254707718
+    - rid: 7737505804254707721
       type: {class: MMF_Flash, ns: MoreMountains.Feedbacks, asm: MoreMountains.Feedbacks}
       data:
         Active: 1
-        UniqueID: -1288389552
+        UniqueID: 705910385
         Label: Flash
         Channel: 0
         Chance: 100
@@ -152,115 +151,10 @@ MonoBehaviour:
           TargetBPM: 120
         Owner: {fileID: 7468062124511491063}
         DebugActive: 0
-        FlashColor: {r: 1, g: 0.08962262, b: 0.08962262, a: 1}
-        FlashDuration: 0.2
+        FlashColor: {r: 1, g: 0, b: 0, a: 1}
+        FlashDuration: 0.5
         FlashAlpha: 1
         FlashID: 0
-    - rid: 7737505804254707719
-      type: {class: MMF_Bloom, ns: MoreMountains.FeedbacksForThirdParty, asm: MoreMountains.Feedbacks.PostProcessing}
-      data:
-        Active: 1
-        UniqueID: 1974838216
-        Label: Bloom
-        Channel: 0
-        Chance: 100
-        DisplayColor: {r: 0, g: 0, b: 0, a: 1}
-        Timing:
-          TimescaleMode: 0
-          ExcludeFromHoldingPauses: 0
-          ContributeToTotalDuration: 1
-          InitialDelay: 0
-          CooldownDuration: 0
-          InterruptsOnStop: 1
-          NumberOfRepeats: 0
-          RepeatForever: 0
-          DelayBetweenRepeats: 1
-          MMFeedbacksDirectionCondition: 0
-          PlayDirection: 0
-          ConstantIntensity: 0
-          UseIntensityInterval: 0
-          IntensityIntervalMin: 0
-          IntensityIntervalMax: 0
-          Sequence: {fileID: 0}
-          TrackID: 0
-          Quantized: 0
-          TargetBPM: 120
-        Owner: {fileID: 7468062124511491063}
-        DebugActive: 0
-        ShakeDuration: 0.2
-        ResetShakerValuesAfterShake: 1
-        ResetTargetValuesAfterShake: 1
-        RelativeValues: 1
-        ShakeIntensity:
-          serializedVersion: 2
-          m_Curve:
-          - serializedVersion: 3
-            time: 0
-            value: 0
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          - serializedVersion: 3
-            time: 0.5
-            value: 1
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          - serializedVersion: 3
-            time: 1
-            value: 0
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          m_PreInfinity: 2
-          m_PostInfinity: 2
-          m_RotationOrder: 4
-        RemapIntensityZero: 0
-        RemapIntensityOne: 1
-        ShakeThreshold:
-          serializedVersion: 2
-          m_Curve:
-          - serializedVersion: 3
-            time: 0
-            value: 0
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          - serializedVersion: 3
-            time: 0.5
-            value: 1
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          - serializedVersion: 3
-            time: 1
-            value: 0
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          m_PreInfinity: 2
-          m_PostInfinity: 2
-          m_RotationOrder: 4
-        RemapThresholdZero: 0
-        RemapThresholdOne: 0
 --- !u!1 &6667637352513567414
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,7 +808,7 @@ MonoBehaviour:
   ChangeLayersRecursivelyOnDeath: 0
   LayerOnDeath:
     _layerIndex: 0
-  DeathMMFeedbacks: {fileID: 7468062124511491063}
+  DeathMMFeedbacks: {fileID: 0}
   ResetColorOnRevive: 1
   ColorMaterialPropertyName: _Color
   UseMaterialPropertyBlocks: 0
