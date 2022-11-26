@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 7064441503053162111}
   - component: {fileID: 7064441503053162109}
   - component: {fileID: 7064441503053162110}
+  - component: {fileID: -5429446038682612441}
+  - component: {fileID: -8059623122875071922}
   m_Layer: 0
   m_Name: MagicStick 1
   m_TagString: Untagged
@@ -101,7 +103,7 @@ MonoBehaviour:
   InitializeOnStart: 0
   Interruptable: 0
   Flipped: 0
-  ProjectileSpawnOffset: {x: 0, y: 0, z: 0}
+  ProjectileSpawnOffset: {x: 3, y: 0, z: 0}
   DefaultProjectileDirection: {x: 0, y: 0, z: 1}
   ProjectilesPerShot: 1
   SpawnTransforms: []
@@ -150,6 +152,41 @@ MonoBehaviour:
     m_Bits: 9
   MaximumSlopeElevation: 50
   AvoidNullAim: 1
+--- !u!114 &-5429446038682612441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7064441503053162104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b7277539b95c0d45895792ecc99ce66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MutualizeWaitingPools: 0
+  NestWaitingPool: 1
+  NestUnderThis: 0
+  GameObjectToPool: {fileID: 5921172396352772498, guid: 0fcdf71bec3e8f240b9bcf86b0fb4a86,
+    type: 3}
+  PoolSize: 20
+  PoolCanExpand: 1
+--- !u!54 &-8059623122875071922
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7064441503053162104}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &5041035006769974925
 PrefabInstance:
   m_ObjectHideFlags: 0
