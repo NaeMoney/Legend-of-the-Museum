@@ -182,7 +182,7 @@ MonoBehaviour:
     - rid: 7737505802469244940
       type: {class: MMF_CameraShake, ns: MoreMountains.Feedbacks, asm: MoreMountains.Feedbacks}
       data:
-        Active: 1
+        Active: 0
         UniqueID: -1722800357
         Label: Camera Shake
         Channel: 0
@@ -213,8 +213,8 @@ MonoBehaviour:
         RepeatUntilStopped: 0
         CameraShakeProperties:
           Duration: 0.1
-          Amplitude: 0.2
-          Frequency: 40
+          Amplitude: 0.06
+          Frequency: 20
           AmplitudeX: 0
           AmplitudeY: 0
           AmplitudeZ: 0
