@@ -1,13 +1,11 @@
 {
     "name": "MoreMountains.InventoryEngine.Editor",
-    "rootNamespace": "",
     "references": [
         "GUID:8a258d69670d9a54d943dd0e57ffea8a",
         "GUID:4a1cb1490dc4df8409b2580d6b44e75e"
     ],
     "includePlatforms": [
-        "Editor",
-        "WebGL"
+        "Editor"
     ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
