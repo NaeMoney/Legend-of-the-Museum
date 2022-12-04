@@ -68,6 +68,7 @@ namespace MoreMountains.TopDownEngine
 		public float MovementSpeedMaxMultiplier { get; set; } = float.MaxValue;
 		private float _movementSpeedMultiplier;
 		/// the multiplier to apply to the horizontal movement
+	
 		public float MovementSpeedMultiplier
 		{
 			get => Mathf.Min(_movementSpeedMultiplier, MovementSpeedMaxMultiplier);
@@ -107,10 +108,12 @@ namespace MoreMountains.TopDownEngine
 		protected int _walkingAnimationParameter;
 		protected int _idleAnimationParameter;
 
-		/// <summary>
-		/// On Initialization, we set our movement speed to WalkSpeed.
-		/// </summary>
-		protected override void Initialization()
+       
+
+        /// <summary>
+        /// On Initialization, we set our movement speed to WalkSpeed.
+        /// </summary>
+        protected override void Initialization()
 		{
 			base.Initialization ();
 			MovementSpeed = WalkSpeed;
@@ -470,6 +473,7 @@ namespace MoreMountains.TopDownEngine
 							system.Play();		
 						}
 						_walkParticlesPlaying = true;
+						
 					}	
 				}
 				else
@@ -480,6 +484,7 @@ namespace MoreMountains.TopDownEngine
 						{
 							system.Stop();		
 							_walkParticlesPlaying = false;
+							
 						}
 					}
 				}

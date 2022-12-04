@@ -619,7 +619,7 @@ MonoBehaviour:
   AbilityPermitted: 1
   BlockingMovementStates: 
   BlockingConditionStates: 
-  animator: {fileID: 0}
+  animator: {fileID: -9149944608462828101}
   Movement: 0
   InputAuthorized: 1
   AnalogInput: 0
