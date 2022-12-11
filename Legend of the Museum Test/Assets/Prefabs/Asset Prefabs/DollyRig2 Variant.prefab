@@ -747,6 +747,24 @@ MonoBehaviour:
   AdditionalAbilityNodes: []
   CharacterBrain: {fileID: 0}
   OptimizeForMobile: 1
+--- !u!114 &1877012019331441750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4250877072106182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13714c8ccb3bbdf4e818f13da2e69eb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RefillMode: 1
+  CooldownAfterHit: 5
+  RefillHealth: 1
+  HealthPerSecond: 0
+  HealthPerBurst: 4
+  DurationBetweenBursts: 0.4
 --- !u!114 &2475119985368408639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -785,24 +803,6 @@ MonoBehaviour:
   MaximumBufferDuration: 0.25
   RequiresPerfectTile: 0
   CurrentWeapon: {fileID: 0}
---- !u!114 &1877012019331441750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4250877072106182}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13714c8ccb3bbdf4e818f13da2e69eb7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RefillMode: 1
-  CooldownAfterHit: 5
-  RefillHealth: 1
-  HealthPerSecond: 0
-  HealthPerBurst: 4
-  DurationBetweenBursts: 0.4
 --- !u!4 &811996530837665916 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3aa6daa361db3ac4bb21d3a25a6ed869,
