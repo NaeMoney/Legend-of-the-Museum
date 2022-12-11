@@ -17102,10 +17102,13 @@ MonoBehaviour:
   ActivableMoreThanOnce: 1
   InactiveTime: 1
   Dialogue:
-  - DialogueLine: 'Specimen details
+  - DialogueLine: A wild Arctic Fox appears!
+  - DialogueLine: 'These furry mammals'' fur will change
 
-      Specimen form: Mount'
-  - DialogueLine: Vulpes lagopus, Arctic fox
+      colour depending
+      on the certain season!
+
+      Their own personal camouflage!'
 --- !u!4 &801088860 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b7930a79065ace449884abeccbd706be,

@@ -2092,6 +2092,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7081766070894945687}
     m_Modifications:
+    - target: {fileID: 1485538306089643193, guid: bfd120b536180d448ab98892a012526a,
+        type: 3}
+      propertyPath: managedReferences[7737505802469244939].Offset.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485538306089643193, guid: bfd120b536180d448ab98892a012526a,
+        type: 3}
+      propertyPath: managedReferences[7737505802469244939].InstantiateParticlesPosition
+      value: 
+      objectReference: {fileID: 7081766070894945687}
     - target: {fileID: 4425075170047404295, guid: bfd120b536180d448ab98892a012526a,
         type: 3}
       propertyPath: m_RootOrder
