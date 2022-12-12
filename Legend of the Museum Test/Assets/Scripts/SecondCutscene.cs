@@ -7,6 +7,6 @@ public class SecondCutscene : MonoBehaviour
 {
     private void OnEnable()
     {
-        SceneManager.LoadScene("Intro", LoadSceneMode.Single);
+        SceneManager.LoadScene("Legend of the museum", LoadSceneMode.Single);
     }
 }

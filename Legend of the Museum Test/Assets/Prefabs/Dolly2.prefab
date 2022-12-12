@@ -1108,6 +1108,7 @@ GameObject:
   - component: {fileID: 294743968673779003}
   - component: {fileID: 4916721530080327284}
   - component: {fileID: 3619187142075007642}
+  - component: {fileID: -6406753415437865367}
   m_Layer: 10
   m_Name: Dolly2
   m_TagString: Player
@@ -1666,6 +1667,24 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-6406753415437865367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7569614279438712621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13714c8ccb3bbdf4e818f13da2e69eb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RefillMode: 1
+  CooldownAfterHit: 4
+  RefillHealth: 1
+  HealthPerSecond: 0
+  HealthPerBurst: 8
+  DurationBetweenBursts: 0.3
 --- !u!1 &7635252348153511001
 GameObject:
   m_ObjectHideFlags: 0

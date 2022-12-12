@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.15447898, g: 0.30698577, b: 0.49217254, a: 1}
+  m_IndirectSpecularColor: {r: 0.010078743, g: 0.053173393, b: 0.11992517, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -158,7 +158,7 @@ PlayableDirector:
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: 142627912913790614, guid: 3f4f739fc3b5e4148a63f4bb3855754d, type: 2}
+  - key: {fileID: 0}
     value: {fileID: 650757858}
   - key: {fileID: 8997103379425945559, guid: 3f4f739fc3b5e4148a63f4bb3855754d, type: 2}
     value: {fileID: 1704769587}
@@ -176,6 +176,8 @@ PlayableDirector:
     value: {fileID: 1150295733}
   - key: {fileID: -2550514990555465334, guid: 3f4f739fc3b5e4148a63f4bb3855754d, type: 2}
     value: {fileID: 778842876}
+  - key: {fileID: -4324851720482704713, guid: 3f4f739fc3b5e4148a63f4bb3855754d, type: 2}
+    value: {fileID: 650757858}
   m_ExposedReferences:
     m_References:
     - 315edbc17197f5b4cb79fe91a9200655: {fileID: 1150295733}
@@ -574,7 +576,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 63999
+    rgba: 4278254079
   m_fontColor: {r: 1, g: 0.9764706, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -749,7 +751,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 1812003327
+    rgba: 4278254079
   m_fontColor: {r: 1, g: 0.97702324, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -944,7 +946,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 63999
+    rgba: 4278254079
   m_fontColor: {r: 1, g: 0.97702324, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1308,8 +1310,8 @@ Camera:
   m_GameObject: {fileID: 1289675347}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1425,7 +1427,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 63999
+    rgba: 4278254079
   m_fontColor: {r: 1, g: 0.97702324, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1600,7 +1602,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 63999
+    rgba: 4278254079
   m_fontColor: {r: 1, g: 0.9764706, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
