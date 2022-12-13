@@ -10217,7 +10217,7 @@ MonoBehaviour:
   ShowPromptWhenColliding: 1
   HidePromptAfterUse: 1
   PromptRelativePosition: {x: 0, y: 0.6, z: -1.25}
-  PromptRotation: {x: 0, y: 0, z: 0}
+  PromptRotation: {x: 90, y: -90, z: 180}
   ActivationFeedback: {fileID: 0}
   DeniedFeedback: {fileID: 0}
   EnterFeedback: {fileID: 0}
@@ -10513,7 +10513,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 453762989}
   m_LocalRotation: {x: -0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: -26.72, y: 2.2782, z: -9.05}
+  m_LocalPosition: {x: -27.1, y: 2.2782, z: -9.05}
   m_LocalScale: {x: 0.3787, y: 1, z: 0.24}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13355,7 +13355,7 @@ MonoBehaviour:
   ShowPromptWhenColliding: 1
   HidePromptAfterUse: 1
   PromptRelativePosition: {x: 0, y: 0.6, z: -1.25}
-  PromptRotation: {x: -90, y: 90, z: 0}
+  PromptRotation: {x: 90, y: 90, z: 180}
   ActivationFeedback: {fileID: 0}
   DeniedFeedback: {fileID: 0}
   EnterFeedback: {fileID: 0}
@@ -13643,7 +13643,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 590962157}
   m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -36.09, y: 3.26, z: 44.03}
+  m_LocalPosition: {x: -38.7, y: 3.26, z: 44.03}
   m_LocalScale: {x: 0.39, y: 1.5419446, z: 0.3184378}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -43268,6 +43268,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 2145838865}
+        m_TargetAssemblyTypeName: MoreMountains.TopDownEngine.CharacterMovement,
+          MoreMountains.TopDownEngine
+        m_MethodName: set_MovementForbidden
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   OnExit:
     m_PersistentCalls:
       m_Calls:
@@ -43350,6 +43363,19 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2033152491}
+        m_TargetAssemblyTypeName: MoreMountains.TopDownEngine.CharacterMovement,
+          MoreMountains.TopDownEngine
+        m_MethodName: set_MovementForbidden
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2145838865}
         m_TargetAssemblyTypeName: MoreMountains.TopDownEngine.CharacterMovement,
           MoreMountains.TopDownEngine
         m_MethodName: set_MovementForbidden
@@ -63872,6 +63898,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2145838865 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7456072387778781723, guid: f68dbc78ae1c02842937e19dbd7007b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 2145838845}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145838848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69614a4a3cfd06d4e8388acafdb774bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &65702494801516449
 GameObject:
   m_ObjectHideFlags: 0
