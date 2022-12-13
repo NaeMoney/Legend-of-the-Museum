@@ -352,7 +352,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7081766070894945687}
   m_RootOrder: 0
@@ -1124,8 +1124,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7569614279438712621}
   m_LocalRotation: {x: -0, y: 0.9999886, z: -0, w: -0.004769372}
-  m_LocalPosition: {x: 11.993197, y: -0.8199999, z: -15.649113}
-  m_LocalScale: {x: 0.49, y: 0.49, z: 0.49}
+  m_LocalPosition: {x: 11.993197, y: 0.2, z: -15.649113}
+  m_LocalScale: {x: 0.53, y: 0.53, z: 0.53}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 10703406664482147}
@@ -1173,13 +1173,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 7.39
-  m_Radius: 2.32
+  m_Height: 6.63
+  m_Radius: 1.57
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 3.52, z: 0}
+  m_Center: {x: -0.08, y: 3.47, z: 0}
 --- !u!54 &4769765270325861102
 Rigidbody:
   m_ObjectHideFlags: 0
